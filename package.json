@@ -1,0 +1,24 @@
+{
+  "name": "test-popup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vb-oiko/test-popup.git"
+  },
+  "author": "Vasyl Boyko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vb-oiko/test-popup/issues"
+  },
+  "homepage": "https://github.com/vb-oiko/test-popup#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
