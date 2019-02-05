@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif; }
+
+.content {
+  display: flex;
+  width: 100vw;
+  height: 100vh; }
+  .content .content__btn {
+    background-color: #FF3B30;
+    color: #FFFFFF;
+    align-self: center;
+    margin: 0 auto;
+    padding: 20px 50px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer; }
+
+.popup {
+  display: none; }
+  .popup .popup__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex; }
+    .popup .popup__overlay .popup__modal {
+      width: 600px;
+      height: 400px;
+      align-self: center;
+      margin: 0 auto;
+      background-color: white;
+      padding: 50px 70px;
+      border-radius: 5px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+    .popup .popup__overlay .popup__close-icon {
+      position: absolute;
+      background-image: url("../img/icon-popup-close.svg");
+      background-repeat: no-repeat;
+      width: 24px;
+      height: 24px;
+      top: 20px;
+      left: 20px;
+      cursor: pointer; }
+    .popup .popup__overlay .popup__alert-icon {
+      background-image: url("../img/icon-warning_notify-red.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 120px;
+      height: 120px;
+      margin: 0 auto; }
+    .popup .popup__overlay .popup__text {
+      font-size: 28px;
+      text-align: center;
+      color: #434852; }
+    .popup .popup__overlay .popup__buttons {
+      display: flex;
+      justify-content: space-between; }
+      .popup .popup__overlay .popup__buttons .popup__btn-cancel {
+        color: #8B93A3;
+        background-color: #FFFFFF;
+        border: 1px solid #D7DEEA;
+        text-align: center;
+        padding: 10px 0;
+        border-radius: 5px;
+        font-weight: 600;
+        cursor: pointer;
+        flex-basis: 48%;
+        font-weight: 600; }
+      .popup .popup__overlay .popup__buttons .popup__btn-uninstall {
+        color: #FFFFFF;
+        background-color: #FF3B30;
+        border: none;
+        text-align: center;
+        padding: 10px 0;
+        border-radius: 5px;
+        font-weight: 600;
+        cursor: pointer;
+        flex-basis: 48%;
+        font-weight: 600; }
